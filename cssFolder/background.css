@@ -1,12 +1,22 @@
 h1{
   color: white;
 }
+h2{
+  color: white;
+}
 body {
   background-color: #2d2d2d;
 }
 
 div.c-wrapper{
-    width: 90%; /* for example */
+    width: 95%; /* for example */
+    margin: auto;
+    z-index: -1;
+    position: relative;
+}
+
+div.c-wrapper2{
+    width: 95%; /* for example */
     margin: auto;
 }
 
